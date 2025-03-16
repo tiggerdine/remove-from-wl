@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Remove from Watch Later",
+  "version": "1.0",
+
+  "description": "Adds a remove button to each video on your YouTube Watch Later playlist.",
+
+  "icons": {
+    "32": "icons/icon_32.png",
+    "64": "icons/icon_64.png"
+  },
+
+  "content_scripts": []
+}
