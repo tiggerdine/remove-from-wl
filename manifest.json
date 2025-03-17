@@ -10,5 +10,10 @@
     "64": "icons/icon_64.png"
   },
 
-  "content_scripts": []
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["remove.js"]
+    }
+  ]
 }
